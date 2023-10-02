@@ -26,7 +26,7 @@ class Product
         echo "Product Details: \n";
         echo "-ID: $this->id \n";
         echo "-Name: $this->name \n";
-        echo "-Price: $" . $this->getFormattedPrice() . "\n";
+        echo "-Price: $" . $this->getFormattedPrice();
 
     }
 }
